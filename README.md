@@ -30,4 +30,19 @@ Les règles à implémenter dans l'ordre:`
 
 ## Exercice 2: Tests unitaires et mock
 
+Dans cet exercie la classe [Vector](unit/src/main/java/Vector.java) a été codé avec les pieds.
+Les tests unitaires montrent que le code ne marche pas.
+
+Cependant, la classe Person qui utilise Vector a également ses tests qui échouent.
+
+
+> Questions
+
+* Si on a la volonté de faire des tests unitaires, cette situation est-elle normale ? Pourquoi ?
+
+* Mockito permet de faire ici trois choses, lesquels ?
+
+
+## Exercice 3: Les Tests d'une application Spring Web
+
 :construction:
