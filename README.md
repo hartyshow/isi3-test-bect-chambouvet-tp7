@@ -41,8 +41,3 @@ Cependant, la classe Person qui utilise Vector a également ses tests qui échou
 * Si on a la volonté de faire des tests unitaires, cette situation est-elle normale ? Pourquoi ?
 
 * Mockito permet de faire ici trois choses, lesquels ?
-
-
-## Exercice 3: Les Tests d'une application Spring Web
-
-:construction:
