@@ -38,9 +38,16 @@ class FizzBuzzTest {
 
         System.out.println(fizzBuzzed.stream().map(String::toString).collect(Collectors.joining(", ")));
 
-
-        assertEquals("Fizz", fizzBuzzed.get(3));
-        assertEquals("Fizz", fizzBuzzed.get(6));
         assertEquals("2", fizzBuzzed.get(2));
+        assertEquals("Fizz", fizzBuzzed.get(3));
+        assertEquals("Buzz", fizzBuzzed.get(5));
+        assertEquals("Fizz", fizzBuzzed.get(6));
+        assertEquals("It's a trap", fizzBuzzed.get(7));
+        assertEquals("Buzz", fizzBuzzed.get(10));
+        assertEquals("It's a trap", fizzBuzzed.get(14));
+        assertEquals("Fizz Buzz", fizzBuzzed.get(15));
+        assertEquals("It's a trap", fizzBuzzed.get(21));
+        assertEquals("Fizz Buzz", fizzBuzzed.get(30));
+        assertEquals("La grande question sur la vie, l'univers et le reste", fizzBuzzed.get(42));
     }
 }

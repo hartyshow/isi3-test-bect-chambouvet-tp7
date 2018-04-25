@@ -32,15 +32,14 @@ public class FizzBuzz {
         List<String> fizzBuzzed = new ArrayList<>();
         integerList.forEach(item -> {
             String value = String.valueOf(item);
-
-            if(multipleOfSevenPredicate.test(item))
-                value = "It's a trap";
+            if(multipleOfThreePredicate.test(item))
+                value = "Fizz";
             if(multipleOfFivePredicate.test(item))
                 value = "Buzz";
             if(multipleOfThreeAndFivePredicate.test(item))
                 value = "Fizz Buzz";
-            if(multipleOfThreePredicate.test(item))
-                value = "Fizz";
+            if(multipleOfSevenPredicate.test(item))
+                value = "It's a trap";
             if(universalAnswerPredicate.test(item))
                 value = "La grande question sur la vie, l'univers et le reste";
             if(equalsZeroPredicate.test(item))
