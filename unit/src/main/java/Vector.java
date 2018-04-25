@@ -13,6 +13,11 @@ class Vector {
         this.yAxis = yAxis;
     }
 
+    public void reset(){
+        xAxis = BigDecimal.valueOf(0);
+        yAxis = BigDecimal.valueOf(0);
+    }
+
     public Vector(Integer xAxis, Integer yAxis) {
         this(BigDecimal.valueOf(xAxis), BigDecimal.valueOf(yAxis));
     }

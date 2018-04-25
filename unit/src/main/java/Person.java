@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Person {
@@ -29,6 +30,10 @@ public class Person {
 
     public void move(Vector vector) {
         this.position = position.add(vector);
+    }
+
+    public void reset(){
+        this.position.reset();
     }
 
     @Override
