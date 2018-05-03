@@ -28,8 +28,6 @@ class PersonTest {
 
         assertEquals(position, person.getPosition());
         Mockito.verify(defaultPosition).add(deplacement);
-
-        assertEquals(position, person.getPosition());
     }
 
     @Test
